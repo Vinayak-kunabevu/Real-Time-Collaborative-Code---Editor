@@ -75,9 +75,7 @@ function App() {
         window.removeEventListener("beforeunload", handleBeforeUnload)
       }
     }
-  }, [
-    username
-  ])
+  }, [username, ydoc])
 
   if (!username) {
     return (
